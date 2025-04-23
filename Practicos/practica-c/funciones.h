@@ -33,3 +33,6 @@ void comparar(int a, int b);
 int esMultiploDe3(int numero);
 
 //e8
+
+int factorial(int numero);
+

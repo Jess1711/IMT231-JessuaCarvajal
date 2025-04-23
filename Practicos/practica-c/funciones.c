@@ -69,3 +69,13 @@ void comparar(int a, int b) {
 int esMultiploDe3(int numero) {
     return numero % 3 == 0;
 }
+
+//e8
+
+int factorial(int numero) {
+    int resultado = 1;
+    for (int i = 2; i <= numero; i++) {
+        resultado *= i;
+    }
+    return resultado;
+}
