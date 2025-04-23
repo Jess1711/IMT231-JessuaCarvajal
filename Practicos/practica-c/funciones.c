@@ -1,9 +1,13 @@
 #include "funciones.h"
 #include <stdio.h>
 
+#e1
+
 int esPar(int numero) {
     return numero % 2 == 0;
 }
+
+#e2
 
 int contarDigitos(int numero) {
     int contador = 0;
@@ -13,6 +17,8 @@ int contarDigitos(int numero) {
     } while (numero > 0);
     return contador;
 }
+
+#e3
 
 void mostrarEstadoSemaforo(Semaforo estado) {
     switch (estado) {
@@ -28,9 +34,13 @@ void mostrarEstadoSemaforo(Semaforo estado) {
     }
 }
 
+#e4
+
 int acumular(int actual, int nuevo) {
     return actual + nuevo;
 }
+
+#e5
 
 int sumar(int a, int b) {
     return a + b;
