@@ -36,3 +36,8 @@ int esMultiploDe3(int numero);
 
 int factorial(int numero);
 
+//e9
+
+int invertirNumero(int numero);
+
+#endif

@@ -79,3 +79,14 @@ int factorial(int numero) {
     }
     return resultado;
 }
+
+//e9
+
+int invertirNumero(int numero) {
+    int invertido = 0;
+    while (numero > 0) {
+        invertido = invertido * 10 + (numero % 10);
+        numero /= 10;
+    }
+    return invertido;
+}
