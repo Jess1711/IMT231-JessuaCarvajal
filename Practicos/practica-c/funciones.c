@@ -4,6 +4,7 @@
 int esPar(int numero) {
     return numero % 2 == 0;
 }
+
 int contarDigitos(int numero) {
     int contador = 0;
     do {
@@ -11,4 +12,18 @@ int contarDigitos(int numero) {
         contador++;
     } while (numero > 0);
     return contador;
+}
+
+void mostrarEstadoSemaforo(Semaforo estado) {
+    switch (estado) {
+        case ROJO:
+            printf("Semáforo ROJO - Detenerse\n");
+            break;
+        case VERDE:
+            printf("Semáforo VERDE - Avanzar\n");
+            break;
+        case AMARILLO:
+            printf("Semáforo AMARILLO - Precaución\n");
+            break;
+    }
 }
