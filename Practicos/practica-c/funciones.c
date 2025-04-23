@@ -31,3 +31,13 @@ void mostrarEstadoSemaforo(Semaforo estado) {
 int acumular(int actual, int nuevo) {
     return actual + nuevo;
 }
+
+int sumar(int a, int b) {
+    return a + b;
+}
+int restar(int a, int b) {
+    return a - b;
+}
+int multiplicar(int a, int b) {
+    return a * b;
+}
