@@ -1,13 +1,13 @@
 #include "funciones.h"
 #include <stdio.h>
 
-#e1
+//e1
 
 int esPar(int numero) {
     return numero % 2 == 0;
 }
 
-#e2
+//e2
 
 int contarDigitos(int numero) {
     int contador = 0;
@@ -18,7 +18,7 @@ int contarDigitos(int numero) {
     return contador;
 }
 
-#e3
+//e3
 
 void mostrarEstadoSemaforo(Semaforo estado) {
     switch (estado) {
@@ -34,13 +34,13 @@ void mostrarEstadoSemaforo(Semaforo estado) {
     }
 }
 
-#e4
+//e4
 
 int acumular(int actual, int nuevo) {
     return actual + nuevo;
 }
 
-#e5
+//e5
 
 int sumar(int a, int b) {
     return a + b;
@@ -50,4 +50,22 @@ int restar(int a, int b) {
 }
 int multiplicar(int a, int b) {
     return a * b;
+}
+
+//e6
+
+void comparar(int a, int b) {
+    if (a > b) {
+        printf("%d es mayor que %d\n", a, b);
+    } else if (b > a) {
+        printf("%d es mayor que %d\n", b, a);
+    } else {
+        printf("Ambos números son iguales\n");
+    }
+}
+
+//e7
+
+int esMultiploDe3(int numero) {
+    return numero % 3 == 0;
 }
