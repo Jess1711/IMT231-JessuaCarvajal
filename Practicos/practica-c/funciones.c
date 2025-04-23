@@ -27,3 +27,7 @@ void mostrarEstadoSemaforo(Semaforo estado) {
             break;
     }
 }
+
+int acumular(int actual, int nuevo) {
+    return actual + nuevo;
+}
