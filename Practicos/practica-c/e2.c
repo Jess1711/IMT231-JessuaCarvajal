@@ -4,11 +4,11 @@
 int main() {
     int numero;
     while (1) {
-        printf("Ingresa un número entero positivo (0 para salir): ");
+        printf("Ingresa un numero entero positivo (0 para salir): ");
         scanf("%d", &numero);
         if (numero == 0) break;
 
-        printf("El número tiene %d dígitos\n", contarDigitos(numero));
+        printf("El numero tiene %d digitos\n", contarDigitos(numero));
     }
     return 0;
 }
